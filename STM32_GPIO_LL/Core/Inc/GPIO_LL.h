@@ -1,0 +1,14 @@
+/*
+ * GPIO_LL.h
+ *
+ *  Created on: Jul 16, 2026
+ *      Author: shoja
+ */
+
+#ifndef INC_GPIO_LL_H_
+#define INC_GPIO_LL_H_
+
+void LED_init(void);
+
+
+#endif /* INC_GPIO_LL_H_ */
