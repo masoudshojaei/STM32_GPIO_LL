@@ -94,16 +94,12 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-
-    /* USER CODE BEGIN 3 */
-        if(Button_read() == 1)
+    if(Button_read() == 1)
     {
       LED_Blink_Fast();
     }
-    else
-    {
-      LED_OFF();
-    }
+    
+    /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
 }
